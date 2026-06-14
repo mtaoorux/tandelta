@@ -80,7 +80,7 @@ def generate_key() -> str:
 async def handle_start(client, message):
     welcome_text = (
         "👋 Hey there!\n\n"
-        "Welcome to **Apna Coder Key** bot.\n\n"
+        "Welcome to **MTAIIRUS Key** bot.\n\n"
         "Click the button below to generate your key."
     )
 
@@ -141,5 +141,5 @@ async def handle_any_message(client, message):
 
 
 if __name__ == "__main__":
-    print("🚀 MTAIIRUS KEY Bot is starting...")
+    print("🚀 MTAIIRUS Bot is starting...")
     app.run()
